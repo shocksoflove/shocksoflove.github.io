@@ -1,0 +1,553 @@
+/* @font-face {
+  font-family: Libre Caslon Text;
+  src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Caslon+Text&family=Work+Sans:wght@400;500;800&display=swap');
+}
+*/
+
+
+
+* {
+  font-family: Libre Caslon Text;
+  font-weight: 500;
+  letter-spacing: .01em;
+  color:black;
+
+}
+
+body {
+  background-color: #FFFAF5;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden; /* Hide scrollbars */
+  
+}
+
+h1 {
+  font-size: 44px;
+  margin: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 25px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 25px;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+
+p {
+  font-family: inter;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.responsive {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border: 0px solid blue;
+
+}
+
+
+
+
+
+
+
+
+#nav {
+  background-color: #FFFAF5;
+  opacity: 70%;
+  position: fixed; /* Make it stick/fixed */
+  bottom: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: bottom .5s; /* Transition effect when sliding down (and up) */
+  list-style-type: none;
+  padding-top: 0.5%;
+  border: 1px solid #000000;
+}
+
+#nav a {
+  float: left;
+  display: inline-block;
+  color:#000000;
+  text-align: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: inter, sans serif;
+  border: 0px solid black;
+
+
+}
+
+#nav ul li {
+  list-style-type: none;
+  margin-right: 50px;
+
+}
+
+#nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+/*
+#above-fold {
+  min-height: 100%;
+}
+*/
+  #header-about-1 {
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 2%;
+  }
+
+  #ceremony-logo {
+    text-align: center;
+    vertical-align: middle;
+    margin: 22%;
+  }
+
+    img.logo {
+      display: block;
+      margin: 0px auto;
+      width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+#hero-statement {
+  margin-top:27%;
+  margin-left: 4%;
+}
+
+.center-line-1 {
+  border-left: 1px solid rgb(0, 0, 0);
+  padding: 7.5%;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+
+img#press-logos {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+
+
+}
+
+.center-line-2 {
+  border-left: 1px solid rgb(0, 0, 0);
+  padding: 3%;
+  margin-top: 2.5%;
+  margin-left: 50%;
+  margin-bottom: 00px;
+}
+
+
+
+
+
+
+#photo-break {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+  img#moonstones {
+    width: 23%;
+    margin-left: 20%;
+    margin-top: 0%;
+    align-self: flex-start;
+    max-width: 100%;
+  }
+
+  img#custom-perfume {
+    width: 28%;
+    margin-top: 10%;
+    margin-right: 15%;
+    align-self: flex-end;
+    max-width: 100%;
+  }
+
+
+.center-line-3 {
+  border-left: 1px solid rgb(0, 0, 0);
+  padding: 5%;
+  margin-top: 3%;
+  margin-left: 50%;
+  margin-bottom: 7.5%;
+}
+
+
+
+
+
+
+#summary {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 18px;
+
+}
+
+
+
+
+
+#ever-after-tag {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  white-space: nowrap;
+}
+
+
+#magic-scent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 18px;
+
+  }
+
+  img#magic-bottle {
+    width: 28%;
+    margin-left: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 00%;
+    display: flex;
+    align-self: flex-start;
+  }
+
+  #living-memory-copy {
+    margin-left: 0%;
+    margin-top: 00%;
+    margin-bottom: 10%;
+    margin-right: 20%;
+    display: flex;
+    align-self: flex-end;
+  }
+
+
+
+
+
+
+
+#logo-offerings {
+  width: 30%;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: 10%;
+
+}
+
+#offerings-section {
+  display: flex;
+  justify-content: end;
+  border: 0px dashed green;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+  img#private-events {
+    width: 20.8%;
+    float: right;
+    margin-right: 6%;
+    margin-top: auto;
+  }
+  img#corporate {
+    width: 20.8%;
+    float: right;
+    margin-right: 3%;
+    margin-top: auto;
+  }
+  img#wedding {
+    width: 20.8%;
+    float: right;
+    margin-right: 3%;
+    margin-top: auto;
+  }
+  .right-line-1 {
+    float: right;
+    border: .2px solid rgb(0, 0, 0);
+    padding-block: 22%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+  }
+
+
+
+
+
+#testimonial {
+  display: block;
+  text-align: right;
+  margin-top: 3%;
+  margin-right: 5%;
+  padding-right: 5%;
+  font-weight:200;
+  border: 0px solid rgb(0, 0, 0);
+
+}
+
+#quote-attribution {
+  margin-right: 20%;
+}
+
+.horizontal-line-1 {
+  border-top: 1px solid rgb(0, 0, 0);
+  width: 7.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+#about-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 0px solid rgb(0, 0, 0);
+  font-size: 18px;
+
+
+
+}
+  #about-text-1 {
+    float: left;
+    text-align: left;
+    margin-right: 8%;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  img#flower-bottle {
+    width: 20%;
+    float: right;
+    margin-top: 0%;
+    margin-right: 15%;
+    align-self: center;
+
+  }
+
+#about-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 0px solid rgb(0, 0, 0);
+  font-size: 18px;
+
+
+}
+  #about-text-2 {
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  img#orange-blossoms-bottle {
+    width: 38%;
+    float: left;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 0%;
+    align-self: center;
+  }
+
+
+.center-line-4 {
+  border-left: 1px solid rgb(0, 0, 0);
+  padding: 15%;
+  margin-left: 50% ;
+  margin-top: -7%;
+  margin-bottom: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+#closing-tag {
+  margin-bottom: 2.5%;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+
+
+div.form {
+  display:flex;
+  justify-content: center;
+  font-size: 18px;
+  border: 0px groove black;
+  padding: 1%;
+  font-weight: lighter;
+  font-family: inter;
+}
+
+fieldset {
+  padding-left: 4%;
+  padding-right: 8%;
+  padding-top: 3%;
+  border: 0.5px groove black;
+}
+
+input, textarea {
+  background-color: #FFFAF5;
+  border: 0.5px groove black;
+  margin: 2%;
+
+}
+
+button {
+  background-color: #000000;
+  border-radius: 0px;
+  border: 0.5px double #000000;
+  color: #FFFAF5;
+  text-align: center !important;
+  font-size: 14px;
+  padding: 5px;
+  width: 10%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #FFFAF5;
+  color: #000000;
+}
+
+
+
+
+
+.horizontal-line-2 {
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+
+footer {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: -2%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px groove black;
+  }
+  #footer-logo {
+    width: 20%;
+    border: 0px groove black;
+    float: left;
+    align-items: left ;
+  }
+  img#footer-ceremony-logo {
+    max-width: 100%;
+    max-height: 100%;
+    border:  0px groove black;
+    float: left;
+  }
+  #footer-address {
+    border: 0px groove black;
+    float: center;
+    align-items: center ;
+    text-align: center;
+  }
+  #footer-contact {
+    border: 0px groove black;
+    float: right;
+    text-align: center;
+  }
+
+
+  #credits {
+    text-align: right;
+    margin-bottom: 25px;
+    margin-right: 5%;
+    margin-top: 7.5%;
+    font-family: inter, sans serif ;
+    font-size: 12px;
+  }
+
+
+
+
+
+/*
+#infin {
+  width: 2%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  border: 0px groove black;
+  padding-top: 0%;
+  padding-bottom: 4%;
+}
+
+     <div id="infin"> 
+            <img id="infin-sigil" class="responsive" src="/Users/juanfeliperendon/Desktop/PROJECTS/DEVPROJECT/CEREMONY-IMAGES/INFIN-SIGIL.png" alt "ceremony by shocks of love logo" />
+        </div> 
+
+*/
+
+
+
